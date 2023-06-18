@@ -9,6 +9,7 @@ export default function Task1(){
     }, [inputText])
 
     return (<>
+        <a href="https://github.com/guptasajal411/react-tasks-mern/blob/master/src/Task1.js" className="sourceCodeLink">Source Code</a>
         <div className="wrapperDiv task1" style={{height: "100vh"}}>
             <div className="centerDiv">
                 <h1>Responsive Paragraph Word Counter</h1>

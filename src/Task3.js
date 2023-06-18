@@ -13,6 +13,7 @@ export default function Task3({ colors }) {
         setShowColorList(false);
     };
     return (<>
+        <a href="https://github.com/guptasajal411/react-tasks-mern/blob/master/src/Task3.js" className="sourceCodeLink">Source Code</a>
         <div className="wrapperDiv" style={{ height: "100vh" }}>
             <div className="centerDiv text-center">
                 <button onClick={handleButtonClick}>Pick a color</button>

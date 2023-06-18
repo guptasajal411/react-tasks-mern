@@ -5,7 +5,7 @@ export default function Task2() {
     const [operations, setOperations] = useState('0');
 
     function calculateOperations() {
-        try{
+        try {
             setOperations(evaluate(operations).toString());
         } catch (err) {
             alert(err);
@@ -17,7 +17,7 @@ export default function Task2() {
         if (value === "=") {
             calculateOperations();
             return;
-        } else if (value === "C"){
+        } else if (value === "C") {
             setOperations("0");
             return;
         }
@@ -31,6 +31,7 @@ export default function Task2() {
     }
 
     return (<>
+        <a style={{ position: "absolute", left: "5px", top: "5px", color: "white" }} href="https://github.com/guptasajal411/react-tasks-mern/blob/master/src/Task2.js" className="sourceCodeLink">Source Code</a>
         <div className="wrapperDiv task2" style={{ height: "100vh" }}>
             <div className="centerDiv container calculatorContainer p-0 m-0">
                 <div className="display d-flex align-items-end justify-content-end">
