@@ -1,16 +1,10 @@
 {
   "files": {
-    "main.css": "/react-tasks-mern/static/css/main.073c9b0a.css",
-    "main.js": "/react-tasks-mern/static/js/main.6b09b154.js",
-    "static/js/787.b44fbd0d.chunk.js": "/react-tasks-mern/static/js/787.b44fbd0d.chunk.js",
-    "static/media/logo.svg": "/react-tasks-mern/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "main.js": "/react-tasks-mern/static/js/main.f0447c9d.js",
     "index.html": "/react-tasks-mern/index.html",
-    "main.073c9b0a.css.map": "/react-tasks-mern/static/css/main.073c9b0a.css.map",
-    "main.6b09b154.js.map": "/react-tasks-mern/static/js/main.6b09b154.js.map",
-    "787.b44fbd0d.chunk.js.map": "/react-tasks-mern/static/js/787.b44fbd0d.chunk.js.map"
+    "main.f0447c9d.js.map": "/react-tasks-mern/static/js/main.f0447c9d.js.map"
   },
   "entrypoints": [
-    "static/css/main.073c9b0a.css",
-    "static/js/main.6b09b154.js"
+    "static/js/main.f0447c9d.js"
   ]
 }
