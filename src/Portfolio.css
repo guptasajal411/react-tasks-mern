@@ -1,0 +1,146 @@
+.portfolio {
+    background-color: #252a34;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: large;
+
+    color: #eaeaea;
+}
+
+.portfolio h1 {
+    color: white;
+}
+
+.portfolio h3 {
+    color: #ff2e63;
+}
+
+.portfolio a {
+    color: #ff2e63;
+}
+
+.profilePicture {
+    filter: contrast(1);
+    background: linear-gradient(320deg, #405de6, #5851db, #833ab4, #c13584, #e1306c, #fd1d1d);
+    padding: 9px;
+    border-radius: 100%;
+    animation: animationForProfilePicture;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-in-out;
+    animation-delay: 0s;
+}
+
+@keyframes animationForProfilePicture {
+    0% {
+        background: linear-gradient(320deg, #405de6, #5851db, #833ab4, #c13584, #e1306c, #fd1d1d);
+        padding: 0;
+        border-radius: 100%;
+        filter: opacity(0);
+    }
+
+    85% {
+        background: linear-gradient(320deg, #405de6, #5851db, #833ab4, #c13584, #e1306c, #fd1d1d);
+        padding: 0;
+        border-radius: 100%;
+        filter: opacity(75%);
+    }
+
+    100% {
+        background: linear-gradient(320deg, #405de6, #5851db, #833ab4, #c13584, #e1306c, #fd1d1d);
+        padding: 8px;
+        border-radius: 100%;
+        filter: opacity(100%);
+    }
+}
+
+.profilePicture:hover {
+    background: linear-gradient(320deg, #405de6, #5851db, #833ab4, #c13584, #e1306c, #fd1d1d);
+    padding: 8px;
+    border-radius: 75%;
+}
+
+.name {
+    font-family: 'Yusei Magic', sans-serif;
+    filter: blur(0);
+    text-shadow: 3.2px 2.1px 2px #ff2e63;
+    padding-left: 0;
+    padding-right: 0;
+    letter-spacing: 5px;
+    animation: animationForText;
+    animation-duration: 0.6s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: 1;
+}
+
+@keyframes animationForText {
+    from {
+        filter: blur(3px);
+        text-shadow: 0.1px 0.1px 1.7px #ff2e63;
+        padding-left: 25%;
+        padding-right: 0;
+    }
+
+    to {
+        filter: blur(0);
+        text-shadow: 3.2px 2.1px 2px #ff2e63;
+        padding-left: 0;
+        padding-right: 0;
+    }
+}
+
+hr {
+    filter: drop-shadow(3.2px 2.1px 2px white);
+    background-color: transparent;
+    border-style: dotted;
+    border-width: 11px 0 0 0;
+    border-color: #ff2e63;
+    width: 8%;
+    animation: animationForHorizontalRule;
+    animation-duration: 0.4s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: 2;
+    animation-direction: alternate;
+}
+
+@keyframes animationForHorizontalRule {
+    from {
+        filter: drop-shadow(3.2px 2.1px 2px white);
+        width: 8%;
+    }
+
+    to {
+        filter: drop-shadow(0px 0px 0px #252a34);
+        width: 16%;
+        border-color: #252a34;
+    }
+}
+
+hr:hover {
+    border-color: #ff2e63;
+    animation: animationForHorizontalRuleHover;
+    animation-duration: 0.5s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: 2;
+    animation-direction: alternate;
+}
+
+@keyframes animationForHorizontalRuleHover {
+    from {
+        width: 8%;
+    }
+
+    to {
+        width: 25%;
+        border-color: #252a34;
+    }
+}
+
+/*
+  .name:hover{
+    animation: animationForHoverText;
+    animation-duration: 0.25s;
+    animation-iteration-count: 2;
+    animation-timing-function: ease-in-out;
+    animation-direction: alternate;
+  }
+  */
